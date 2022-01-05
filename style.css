@@ -1,0 +1,48 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    color: green;
+    text-align: center;
+}
+
+.parent {
+    display: flex;
+    border: 1px solid gray;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.photo img {
+    width: 250px;
+}
+
+.details-btn {
+    padding: 15px 15px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, green, red, green);
+}
+
+.details-btn:hover {
+    background-color: indigo;
+    color: white;
+    cursor: pointer;
+}
+
+.second-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.dhaka {
+    width: 250px;
+    border: 1p solid grey;
+}
+
+.div-img img {
+    width: 100%;
+}
