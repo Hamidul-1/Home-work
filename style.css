@@ -10,7 +10,7 @@
 
 .parent {
     display: flex;
-    border: 1px solid gray;
+    /*border: 1px solid gray;*/
     width: 80%;
     margin: 0 auto;
 
@@ -45,4 +45,27 @@
 
 .div-img img {
     width: 100%;
+}
+
+.all-devisions {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.bottom-section {
+    padding: 15px;
+}
+
+.details {
+    background-color: red;
+    padding: 10px, 20px;
+    border: none;
+    border-radius: 5px;
+    transition: .8s;
+}
+
+.details:hover {
+    background-color: blue;
+    color: white;
 }
